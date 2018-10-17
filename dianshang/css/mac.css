@@ -1,0 +1,596 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,figure,figcaption{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal;}
+ul,ol,li{list-style:none;}
+b,strong{font-weight:normal;}
+em,i{font-style:normal;}
+a,u{text-decoration: none;}
+img{border:0;display:block;}
+input{outline:none;}
+
+#apple-head,#mac-section,#apple-footer,#apple-nav,#mac-nav{
+    width: 100%;
+    margin:auto;
+}
+#apple-head{
+    height:40px ;
+    background-color: #444444;
+}
+#apple-head h3{
+    position: absolute;
+    right:186px;
+    top:15px;
+    font-size:8px;
+    color:#a8a8aa;
+}
+#apple-nav{
+    height: 45px;
+    background-color: #000;
+    position: relative;
+    line-height: 45px;
+}
+#apple-nav ul{
+    overflow:hidden;
+    height: 45px;
+}
+#apple-nav ul li{
+    float:left;
+    margin-left:88px;
+    line-height:45px;
+    font-size:14px;
+	color:#fff;
+}
+#apple-nav ul .hover{
+    opacity: 0.65;
+}
+#apple-nav .apple-nav-first{
+    margin-left:182px;
+}
+#apple-nav ul li a{
+    font-size:14px;
+    color:#fff;
+    text-decoration-line: none;
+}
+#apple-nav ul li:hover{
+    opacity: 0.65;
+}
+#last:hover{
+    cursor: pointer;
+}
+.apple-table-box{
+    position: absolute;
+    right: 48px;
+    top:47px;
+    width: 288px;
+    padding:0 20px 0 20px;
+    background-color: #fff;
+    display: none;
+    z-index: 100;
+}
+.triangle{
+    width: 10px;
+    height: 10px;
+    border:10px solid;
+    position: absolute;
+    top:-20px;
+    left:135px;
+    border-color: transparent transparent #f5eded transparent;
+}
+#apple-nav .apple-list{
+    width: 248px;
+}
+.apple-list img{
+    display: inline;
+    margin-right:15px;
+}
+.apple-list td,.apple-list th{
+   
+    border-bottom: 1px solid #e3e3e3;
+}
+.apple-list td{
+    
+    color:#0070c9;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#apple-nav .apple-list th{
+    
+    padding-top:37px;
+    text-align: center;
+    padding-bottom:37px;
+    color:#888888;
+}
+.apple-list td:hover{
+    cursor: pointer;
+}
+#apple-nav .apple-table-last{
+    
+    border-bottom: none;
+}
+#apple-nav .ziti1{
+    font-family: icomoon;
+    font-size:18px;
+}
+#apple-nav #last{
+    font-size:18px;
+}
+
+
+#mac-nav{
+    height: 116px;
+    background-color: #141414;
+    text-align: center;
+    position: relative;
+    padding-top:15px;
+
+}
+#mac-nav ul{
+    overflow:hidden;
+    height: 75px;
+    width: 920px;
+    margin:0 auto;
+}
+#mac-nav ul li{
+    float:left;
+    margin-left:38px;
+    line-height:75px;
+    font-size:50px;
+	color:#fff;
+}
+#mac-nav ol{
+    position: absolute;
+    top:85px;
+    left:215px;
+    width: 920px;
+    margin:0 auto;
+}
+#mac-nav ol li{
+    float:left;
+    /* margin-left:38px; */
+    font-size:11px;
+	color:#fff;
+}
+#mac-nav ol li:hover{
+    color: #0070c9;
+    cursor: pointer;
+}
+.zi1{
+    margin-left:38px;
+}
+.zi2{
+    margin-left:38px;
+    margin-right:26px;
+}
+.zi4{
+    margin-left:40px;
+    margin-right:59px;
+}
+.zi6{
+    margin-left:50px;
+    margin-right:46px;
+}
+.zi8{
+    margin-left:54px;
+    margin-right:60px;
+}
+.zi9{
+    margin-right:57px;
+}
+/* 轮播图 */
+.video-all{
+    width: 100%;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+}
+.video-zi{
+    position: absolute;
+    top:80px;
+    left:135px;
+    color: #fff;
+    z-index: 10;
+    width: 1000px;
+}
+.video-zi h2{
+    margin-bottom: 130px;
+    font-size:30px;
+    opacity: 0.8;
+}
+.video-zi p{
+    font-size:20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.video-zi a{
+    font-size:20px;
+    font-weight: 600;
+    color: #fff;
+}
+.video-zi span{
+    font-size:20px;
+    font-weight: 600;
+    color: #fff;
+    margin-left:10px;
+}
+.video-btn{
+    height: 119px;
+    width:970px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.photo{
+    font-size: 90px;
+    float: left;
+}
+.computer{
+    font-size: 90px;
+    float: right;
+    margin-left:420px;
+    opacity: 0.6;
+}
+.video-btn .photo:hover{
+    opacity: 1!important;
+    cursor: pointer;
+}
+.video-btn .computer:hover{
+    opacity: 1!important;
+    cursor: pointer;
+}
+.video-btn .photo:focus{
+    outline: none;
+}
+.video-btn .computer:focus{
+    outline: none;
+}
+#swiper1{
+    overflow: hidden;
+}
+
+
+
+.video{
+    /* position: absolute;
+    top:0; */
+    float: left;
+    width: 1349px;
+    height: 100%;
+}
+.video-tip{
+    position: absolute;
+    bottom: 43px;
+    left:120px;
+    overflow: hidden;
+}
+.video-tip li{
+    height: 8px;
+    width: 8px;
+    float: left;
+    background-color: #fff;
+    z-index: 10;
+    border-radius: 50%;
+    margin-left:15px;
+    opacity: 0.5;
+}
+.video-tip .active{
+    opacity:1 ;
+}
+.video-tip li:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.media{
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    overflow: hidden;
+    margin-top:-10px;
+}
+
+
+#mac-section{
+    margin-top:40px;
+}
+.mac-pro{
+    height: 871px;
+    background: url(../images/macimg/hero_large.jpg) no-repeat center;
+}
+.pro-zi{
+    color: #fff;
+    text-align: center;
+    padding-top:86px;
+    width: 623px;
+    margin:0 auto;
+}
+.pro-zi h2{
+    font-size:80px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.pro-zi h3{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    margin-bottom: 16px;
+}
+.pro-zi a{
+    font-size: 21px;
+    line-height: 1.38105;
+    font-weight: 400;
+    letter-spacing: .011em;
+    color: #6bf;
+}
+.pro-zi span{
+    color: #6bf;
+    margin-right: 35px;
+}
+.imac-pro{
+    margin-top:50px;
+    margin-bottom: 50px;
+    height: 968px;
+    background: #1a1a1a url(../images/macimg/imac_pro_03_large.jpg) no-repeat center bottom;
+}
+.imac{
+    /* padding-bottom: 50px; */
+    height: 1105px;
+    background: #fafafa url(../images/macimg/imac_large.jpg) no-repeat center bottom;
+}
+.color{
+    height: 50px;
+    background-color: #fafafa;
+    margin-bottom: 50px;
+}
+.imac .pro-zi{
+    color: #000;
+}
+.imac .pro-zi a{
+    color: #0070c9;
+}
+.mac-book{
+    /* padding-bottom: 50px; */
+    height: 704px;
+    background: #fafafa url(../images/macimg/macbook_large.jpg) no-repeat center bottom;
+}
+.mac-book .pro-zi{
+    color: #000;
+}
+.mac-book .pro-zi a{
+    color: #0070c9;
+}
+.mac-bijiao{
+    /* padding-bottom: 50px; */
+    height: 605px;
+    background: #fafafa url(../images/macimg/compare_large.jpg) no-repeat center bottom;
+}
+.mac-bijiao .pro-zi{
+    color: #000;
+}
+.mac-bijiao .pro-zi a{
+    color: #0070c9;
+}
+.mac-peijian{
+    /* padding-bottom: 50px; */
+    height: 650px;
+    background: #fafafa url(../images/macimg/accessories_large.jpg) no-repeat center bottom;
+}
+.mac-peijian .pro-zi{
+    color: #000;
+}
+.mac-peijian .pro-zi a{
+    color: #0070c9;
+}
+
+.education{
+    width: 100%;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.education-left,.education-right{
+    height: 632px;
+    width: 654px;
+}
+.education-left{
+    float: left;
+    background: url(../images/macimg/education_large.jpg) no-repeat center;
+}
+.education-right{
+    float: right;
+    background: url(../images/macimg/higher_education_large.jpg) no-repeat center;
+}
+.education-zi{
+    overflow: hidden;
+}
+.word-left{
+    width: 654px;
+    float: left;
+    text-align: center;
+
+}
+.word-left h2{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+}
+.word-left h3{
+    font-size: 21px;
+    line-height: 1.38105;
+    font-weight: 400;
+    letter-spacing: .011em;
+    color: #333;
+    margin-top: 1em;
+    margin-bottom: 0.35em;   
+}
+.word-left a{
+    color: #0070c9;
+    font-size: 21px;
+    line-height: 1.38105;
+    font-weight: 400;
+    letter-spacing: .011em;
+    margin-bottom: 0.35em;
+    display: inline-block;
+}
+.word-left span{
+    color: #0070c9;
+}
+.word-right{
+    width: 654px;
+    float: right;
+    text-align: center;
+
+}
+.word-right h2{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+}
+.word-right h3{
+    font-size: 21px;
+    line-height: 1.38105;
+    font-weight: 400;
+    letter-spacing: .011em;
+    color: #333;
+    margin-top: 1em;
+    margin-bottom: 0.35em;   
+}
+.word-right a{
+    color: #0070c9;
+    font-size: 21px;
+    line-height: 1.38105;
+    font-weight: 400;
+    letter-spacing: .011em;
+    margin-bottom: 0.35em;
+    display: inline-block;
+}
+.word-right span{
+    color: #0070c9;
+}
+
+.mac-shangwu{
+    margin-top: 110px;
+    height: 632px;
+    margin-bottom: 50px;
+    background: url(../images/macimg/business_large.jpg) no-repeat center;
+}
+.shangwu-zi{
+    width: 500px;
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 110px;
+}
+.shangwu-zi h2{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+}
+.shangwu-zi h3{
+    font-size: 21px;
+    line-height: 1.38105;
+    font-weight: 400;
+    letter-spacing: .011em;
+    margin-top:1em;
+    margin-bottom: 0.8em;
+}
+.shangwu-zi a{
+    font-size: 21px;
+    line-height: 1.38105;
+    font-weight: 400;
+    letter-spacing: .011em;
+    color: #0070c9;
+    margin-left:20px;
+}
+
+#apple-footer{
+
+    height: 491px;
+    background-color: #f2f2f2;
+    padding-left:180px;
+    padding-right:180px;
+}
+.footerZi{
+    width: 980px;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    line-height: 50px;
+    color:#888;
+    font-size:10px;
+}
+.ulAll{
+    overflow: hidden;
+}
+.firstUl{
+    margin-top:15px;
+    margin-right:110px;
+    float: left;
+}
+.firstUl .footer-firstli{
+    color:#333;
+    margin-bottom:12px;
+    font-size: 11px;
+    line-height: 1.36364;
+    font-weight: 600;
+}
+.firstUl a{
+    font-size:10px;
+    color:#555555;
+}
+.firstUl li{
+    margin-bottom:5px;
+}
+.footerZi-two{
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    line-height: 30px;
+    color:#555555;
+    font-size:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.footerZi-two a{
+    color:#0070c9;
+}
+.copyright{
+    overflow: hidden;
+}
+.copyright span{
+    float: left;
+    font-size:10px;
+    color:#555555;
+    margin-right:10px;
+}
+.copyright-list{
+    float: left;
+    overflow: hidden;
+}
+.copyright-list li{
+    float: left;
+    font-size:11px;
+    color:#555555;
+    padding-right:10px;
+    padding-left:10px;
+    border-right:1px solid #d2d2d2;
+}
+.footerZi-three{
+    font-size:10px;
+    color:#555555;
+    margin-top:10px;
+}
+.iconfont-zi{
+    margin-top:15px;
+    font-size:0.8em;
+    color:#555;
+}
+
+.xiaolan{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #1d9afd;
+    position: absolute;
+    right:189px;
+    top:21px;
+    display: none;
+}

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_864064_n0y58u2oqb9.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">    
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_871782_7gx2ubjutvb.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_865308_i3cq9powzp9.css">
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('fonts/icomoon.eot?q9so3g');
+            src: url('fonts/icomoon.eot?q9so3g#iefix') format('embedded-opentype'),
+            url('fonts/icomoon.ttf?q9so3g') format('truetype'),
+            url('fonts/icomoon.woff?q9so3g') format('woff'),
+            url('fonts/icomoon.svg?q9so3g#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="lunbo">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/shopimg/mac1.jfif" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/shopimg/mac4.jfif" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/shopimg/mac2.jfif" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/shopimg/mac3.jfif" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination" id="ul-box"></div>
+        <div class="btn-right iconfont icon-xiangyouanniu">
+        </div>
+        <!--右箭头-->
+        <div class="btn-left iconfont icon-xiangyouanniu-copy">
+        </div>
+        <!--左箭头-->
+        <div class="btn-guan">
+            X
+        </div>
+    </div>
+    <header id="shop-fixed">
+        <div class="fixed-left">
+            <div class="jiaoliu">
+                <div class="ziti1 iconfont icon-duihua"></div>
+                <div class="zi1">
+                    <h2>获得购买帮助：</h2>
+                    <a href="">开始交流</a>
+                    <h2>致电 400-666-8800</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="ziti1 iconfont icon-xiangzi"></div>
+                <div class="zi1">
+                    <h2>送达日期:</h2>
+                    <h2>有现货</h2>
+                    <h2>免费送货</h2>
+                    <a href="">查看送货日期</a>
+                </div>
+            </div>
+        </div>
+        <div class="fixed-right">
+            <div class="right-zi">
+                <h2 class="chang-price">RMB 21,988</h2>
+                <a href="">更有分期付款选择</a>
+            </div>
+            <button class="btn btn-primary pay">添加到购物袋</button>
+        </div>
+    </header>
+    <nav id="apple-nav">
+        <div class="xiaolan"></div>
+        <ul>
+            <li class="apple-nav-first">
+                <a href="index.html" class="ziti1"></a>
+            </li>
+            <li>
+                <a href="mac.html" class="hover">Mac</a>
+            </li>
+            <li>
+                <a href="">ipad</a>
+            </li>
+            <li>
+                <a href="">iphone</a>
+            </li>
+            <li>
+                <a href="">Watch</a>
+            </li>
+            <li>
+                <a href="">Music</a>
+            </li>
+            <li>
+                <a href="">技术支持</a>
+            </li>
+            <li>
+                <a href="" class="ziti1"></a>
+            </li>
+            <li class="iconfont icon-gouwudai" id="last"></li>
+        </ul>
+        <div class="apple-table-box" id="table">
+                <div class="triangle"></div>
+            <table class="apple-list table table-hover">
+                <thead>
+                    <tr>
+                        <th>你的购物袋是空的</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="images/01.png" alt="">
+                            <span class="shop-car">购物袋</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/02.png" alt="">
+                            <span>收藏</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/03.png" alt="">
+                            <span>订单</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/04.png" alt="">
+                            <span>账户</span>
+                    </tr>
+                    </td>
+                    <tr>
+                        <td class="apple-table-last">
+                            <img src="images/05.png" alt="">
+                            <span id="username">登录</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </nav>
+    <section id="shop-section">
+        <main class="shop-title">
+            <div class="title-zi">MacBook Pro</div>
+            <ul>
+                <li>
+                    <a href="">概览</a>
+                </li>
+                <li>
+                    <a href="">macOS</a>
+                </li>
+                <li>
+                    <a href="">技术规格</a>
+                </li>
+            </ul>
+        </main>
+        <main class="heart-xinxi">
+            <img src="images/shopimg/kongxin.png" alt="" class="heart-img">
+        </main>
+    </section>
+    <section id="mac-xinxi">
+        <main class="heart iconfont icon-kongxin"></main>
+        <main class="mac-img">
+            <img src="images/shopimg/mac.jfif" alt="">
+            <a href="#" class="btn-kai">查看图库</a>
+        </main>
+        <main class="mac-word">
+            <h2>定制你的 15 英寸 MacBook Pro -
+                <br>深空灰色</h2>
+            <h3>2.6GHz 六核第八代 Intel Core i7 处理器，Turbo Boost 最高可达 4.3GHz</h3>
+            <h3>采用原彩显示技术的视网膜显示屏</h3>
+            <h3>触控栏和触控 ID</h3>
+            <h3>Radeon Pro 560X 图形处理器，配备 4GB GDDR5 显存</h3>
+            <h3>16GB 2400MHz DDR4 内存</h3>
+            <h3>512GB 固态硬盘</h3>
+            <h3>四个雷雳 3 端口</h3>
+            <h3>背光键盘 - 中文 - 拼音</h3>
+            <div class="line word-line"></div>
+
+            <div class="processor">
+                <span>处理器</span>
+                <a href="">哪款处理器适合你？</a>
+                <main>
+                    <div class="mouse-hover" id="processor-choose1">
+                        <ul>
+                            <li>2.6GHz 六核第八代 </li>
+                            <li>Intel Core i7 处理器，</li>
+                            <li>Turbo Boost 最高可达 </li>
+                            <li>4.3GHz</li>
+                        </ul>
+                    </div>
+                    <div class="mouse-hover" id="processor-choose2">
+                        <ul>
+                            <li>2.9GHz 六核第八代 </li>
+                            <li>Intel Core i9 处理器，</li>
+                            <li>Turbo Boost 最高可达 </li>
+                            <li>4.8GHz</li>
+                        </ul>
+                    </div>
+                </main>  
+            </div>
+
+            <div class="storage">
+                    <span>内存</span>
+                    <a href="">多大的内存适合你?</a>
+                    <main>
+                        <div class="mouse-hover" id="storage-choose1">
+                            16GB 2400MHz DDR4 内存
+                        </div>
+                        <div class="mouse-hover" id="storage-choose2"> 
+                            32GB 2400MHz DDR4 内存
+                        </div>
+                    </main>      
+            </div>
+
+
+            <div class="memory">
+                <span>存储设备</span>
+                <a href="">多大的存储容量适合你?</a>
+                <main>
+                    <div class="mouse-hover" id="memory-choose1">
+                        512GB 固态硬盘
+                    </div>
+                    <div class="mouse-hover" id="memory-choose2"> 
+                        1TB 固态硬盘
+                    </div>
+                    <div class="mouse-hover" id="memory-choose3">
+                        2TB 固态硬盘
+                    </div>
+                    <div class="mouse-hover" id="memory-choose4">
+                        4TB 固态硬盘
+                    </div>
+                </main>
+            </div>
+
+            <div class="language">
+                    <span>存储设备</span>
+                    <a href="">进一步了解?</a>
+                    <select class="form-control language-select">
+                            <option>背光-键盘-中文-拼音</option>
+                            <option>背光-键盘-日语</option>
+                            <option>背光-键盘-韩文</option>
+                            <option>背光-键盘-英语</option>
+                            <option>背光-键盘-中文-拼音</option>
+                    </select>
+            </div>
+            <h4>预装软件</h4>
+            <div class="Final">
+                    <span>Final Cut Pro X</span>
+                    <a href="">进一步了解</a>
+                    <div>
+                        <div class="mouse-hover">无</div>
+                        <div class="mouse-hover">
+                            <span>Final Cut Pro X</span>
+                            <span>+ RMB 1,980</span>
+                        </div>
+                    </div>
+            </div>
+            <div class="Logic">
+                    <span>Logic Pro X</span>
+                    <a href="">进一步了解</a>
+                    <div>
+                        <div class="mouse-hover">无</div>
+                        <div class="mouse-hover">
+                            <span>Logic Pro X</span>
+                            <span>+ RMB 1,286</span>
+                        </div>
+                    </div>
+            </div>
+        </main>
+    </section>
+    <div class="line"></div>
+
+    <section class="shop-packaging">
+        <h1>包装内容</h1>
+        <div class="img-all">
+            <img src="images/shopimg/lian1.jfif" alt="">
+            <img src="images/shopimg/lian2.jfif" alt="">
+            <img src="images/shopimg/lian3.jfif" alt="">
+        </div>
+        <div class="img-zi">
+            <div class="img-zi1">15 英寸 MacBook Pro</div>
+            <div class="img-zi2">USB-C 充电线 <br>(2 米)</div>
+            <div>87W USB-C 电<br>源适配器</div>
+        </div>
+    </section>
+
+
+
+    <footer id="apple-footer">
+        <div class="footerZi">
+            <p>
+                1.1GB = 10 亿字节，1TB = 1 万亿字节；格式化之后的实际容量可能较小。</p>
+            <p>
+                为预计时间，实际发货和送货时间可能根据你选择的付款方式、完成付款时间和产品存货状况而有所变化。
+            </p>
+        </div>
+        <div class="iconfont-zi">
+            <span class="iconfont icon-pingguo"></span>
+            <span class="iconfont icon-icon1"></span>
+            <span>Mac</span>
+            <span class="iconfont icon-icon1"></span>
+            <span> MacBook Pro</span>
+            <span class="iconfont icon-icon1"></span>
+            <span> 购买 MacBook Pro</span>
+            <span class="iconfont icon-icon1"></span>
+            <span> 定制 MacBook Pro</span>
+        </div>
+        <div class="ulAll">
+            <ul class="firstUl">
+                <li class="footer-firstli">选购及了解</li>
+                <li>
+                    <a href="">Mac</a>
+                </li>
+                <li>
+                    <a href="">ipad</a>
+                </li>
+                <li>
+                    <a href="">iphone</a>
+                </li>
+                <li>
+                    <a href="">Watch</a>
+                </li>
+                <li>
+                    <a href="">Music</a>
+                </li>
+                <li>
+                    <a href="">itues</a>
+                </li>
+                <li>
+                    <a href="">ipod touch</a>
+                </li>
+                <li>
+                    <a href="">配件</a>
+                </li>
+                <li>
+                    <a href="">App Store 充值卡</a>
+                </li>
+            </ul>
+            <ul class="firstUl">
+                <li class="footer-firstli">App Store 商店</li>
+                <li>
+                    <a href="">查找零售商店</a>
+                </li>
+                <li>
+                    <a href="">ipad</a>
+                </li>
+                <li>
+                    <a href="">iphone</a>
+                </li>
+                <li>
+                    <a href="">Watch</a>
+                </li>
+                <li>
+                    <a href="">Music</a>
+                </li>
+                <li>
+                    <a href="">itues</a>
+                </li>
+                <li>
+                    <a href="">ipod touch</a>
+                </li>
+                <li>
+                    <a href="">配件</a>
+                </li>
+                <li>
+                    <a href="">App Store 充值卡</a>
+                </li>
+                <li>
+                    <a href="">订单状态</a>
+                </li>
+                <li>
+                    <a href="">选购帮助</a>
+                </li>
+            </ul>
+            <ul class="firstUl">
+                <li class="footer-firstli">教育应用</li>
+                <li>
+                    <a href="">Apple与教育</a>
+                </li>
+                <li>
+                    <a href="">高校师生选购</a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href="">商务应用</a>
+                </li>
+                <li>
+                    <a href="">Apple与商务</a>
+                </li>
+                <li>
+                    <a href="">商务选购</a>
+                </li>
+            </ul>
+            <ul class="firstUl">
+                <li class="footer-firstli">账户</li>
+                <li>
+                    <a href="">管理你Apple ID</a>
+                </li>
+                <li>
+                    <a href="">App Store账户</a>
+                </li>
+                <li>
+                    <a href="">iphone</a>
+                </li>
+                <li>
+                    <a href="">Watch</a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href="">itues</a>
+                </li>
+                <li>
+                    <a href="">环境责任</a>
+                </li>
+                <li>
+                    <a href="">隐私</a>
+                </li>
+                <li>
+                    <a href="">供应商责任</a>
+                </li>
+            </ul>
+            <ul class="firstUl">
+                <li class="footer-firstli">关于 Apple</li>
+                <li>
+                    <a href="">Newsroom</a>
+                </li>
+                <li>
+                    <a href="">Apple管理器</a>
+                </li>
+                <li>
+                    <a href="">工作机会</a>
+                </li>
+                <li>
+                    <a href="">创造就业</a>
+                </li>
+                <li>
+                    <a href="">活动</a>
+                </li>
+                <li>
+                    <a href="">联系Apple</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="footerZi-two">
+            <span>更多选购方式前往：</span>
+            <a href="">App Store 零售店</a>
+            <span>,致电400-600-8800</span>
+            <a href="">授权经销商</a>
+        </div>
+        <div class="copyright">
+            <span>copyright &copy; 2018 Apple inc.保留所有权限。</span>
+            <ul class="copyright-list">
+                <li>隐私政策</li>
+                <li>使用条款</li>
+                <li>销售政策</li>
+                <li>法律信息</li>
+                <li>网站地图</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/common/index.js"></script>
+    <!-- <script src="js/shop.js"></script> -->
+    <script src="js/shop2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+</body>
+
+</html>
